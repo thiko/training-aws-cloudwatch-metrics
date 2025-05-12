@@ -156,3 +156,13 @@ To avoid ongoing charges:
 - Try creating additional metric filters to track other S3 operations like DeleteObject
 - Experiment with different statistic types (Sum, Average, Maximum) for your metrics
 - Create a composite alarm that triggers based on both upload and download activity
+
+## Key AWS Metrics Concepts
+
+- **Namespace:** A container for metrics that helps organize metrics from different services. Example: AWS/EC2 is the namespace for all EC2 metrics.
+- **Metric:** A time-ordered set of data points representing a variable you want to monitor. Example: CPUUtilization tracks processor usage over time.
+- **Dimension:** A name/value pair that is part of a metric's identity, used to uniquely identify and filter metrics. Example: InstanceId=i-1234567890abcdef0 specifies which instance the metric applies to.
+-  **Data Point:** A value of a metric at a specific point in time. Example: A CPU utilization reading of 75% at 14:05:30.
+- Statistic: Aggregated metric data calculated over a specified time period. Example: Maximum CPU usage across a fleet of instances.
+-  **Period:** The length of time over which statistics are aggregated. Example: A 5-minute period creates data points at 5-minute intervals.
+- **Unit:** The standard of measurement for a metric. Example: Bytes for data transfer or Percent for utilization metrics.
