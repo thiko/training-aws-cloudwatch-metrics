@@ -73,8 +73,9 @@ CloudWatch Metric Filters allow you to extract specific data from log events and
    - Navigate to CloudWatch "Metrics" on the left navigation
    - Find your custom namespace `S3AccessMetrics`
    - Select the metrics you created
+   - Statistic: Sum
    - Click "Create alarm"
-   - Set the threshold to be "Greater than or equal to 5" for the `ObjectDownloads` metric (meaning 5 downloads within the time period)
+   - Set the threshold to be "Greater than or equal to 5" for the `ObjectDownloads` metric (meaning 5 downloads within the time period)  
    - Set the evaluation period to 5 minutes
    - Click "Next"
    - For notification:
