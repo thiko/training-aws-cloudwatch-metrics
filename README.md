@@ -24,6 +24,8 @@ CloudWatch Metric Filters allow you to extract specific data from log events and
    - In your new trail, click on the "Data events" tab
    - Click "Edit"
    - Add an S3 data event
+   - Click on "Switch to Basic event selector"
+   - Disable "All current and future S3 buckets" read and write checkboxs
    - Select the S3 bucket you created in the previous exercise
    - Enable logging for "All object-level API activity"
    - Save your changes
