@@ -18,7 +18,6 @@ CloudWatch Metric Filters allow you to extract specific data from log events and
    - Activate CloudWatch Logs ingestion - enter a suitable name for the log group (you can also name it like the trail `/aws/cloudtrail/s3-access-trail`)
    - Under "Events", select "Management events"
    - Ensure "Read" and "Write" are selected
-   - Under "Advanced", select "Include AWS KMS events"
    - Click "Next" and then "Create trail"
 
 2. **Configure S3 data events**
